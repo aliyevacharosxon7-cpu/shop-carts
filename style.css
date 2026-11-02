@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    
+   
+}
+h1{
+    margin: 10px auto;
+    text-align: center;
+    
+}
+input{
+    width: 35%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    
+
+}
+ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+li{
+    width: 250px;
+    height: 300px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+li img{
+    width: 100%;
+    height: 70%;
+    border-radius: 30px;
+    padding: 10px;
+}
+li p{
+    text-align: center;
+
+}
